@@ -1,0 +1,91 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.education-info{
+    background-color:black;
+    margin-top:250px;
+    height:95vh;
+    background-image:  linear-gradient(90deg, #FF5153 0%, #FE7273 80%);
+}
+.once-more{
+    position:relative;
+    top:30px;
+}
+.education-head h1{
+    font-family: "Heebo", sans-serif;
+}
+.education-head h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:-30px;
+    
+}
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{border-bottom: 1px solid #453886;color: #453886;padding-bottom: .25em; text-decoration: none;}
+
+.footer-heart a:hover{color:#2196f3; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
+
+.emoji{vertical-align: middle;}
+.end{
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+footer{
+    background-color: black;
+}
+.end .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration:none;
+    color:white;
+  }
+  
+ 
+.end .social .fb:hover,.social .insta:hover,.social .twitt:hover,.social .linkin:hover {
+    background-image: linear-gradient(90deg, #FF5153 0%, #FE7273 80%);
+  } 
+   
+  .social .fb {
+    background: #3B5998;
+    color: white;
+    text-decoration:none;
+    border-radius:10px;
+  }
+  
+
+  .social .linkin {
+    background: #55ACEE;
+    color: white;
+    text-decoration:none;
+    color: inherit;
+    border-radius:10px;
+  }
+
+.social .insta
+  {
+      background-image: linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d); 
+      color:white;
+      text-decoration: none;
+      border-radius:10px;
+  }
+ .social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration:none;
+    border-radius:10px;
+  }

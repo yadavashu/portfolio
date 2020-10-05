@@ -1,0 +1,182 @@
+
+  @media only screen and (min-width:770px ) and (max-width:1000px){
+
+    #my-pic{
+        width:60%;
+        height:60%;
+    }
+    #name-bold{
+        font-size:1.5rem;
+    }
+    .ash-experiences{
+        height:1800px;
+    }
+
+ .flip-card{
+        width:90%;
+        height:300px;
+    }
+
+    .flip-card img{
+        width:80%;
+    }
+    .flip-card-back h1{
+        font-size:1.5rem;
+    }
+    .flip-card-back p{
+        font-size:1rem;
+        padding:2px 4px 4px 4px;
+    }
+
+    .education-info{
+        height:800px;
+    }
+    .details p{
+        font-size:0.8rem;
+    }
+
+    .written-info h1{
+        font-size:2rem;
+    }
+    .written-info p{
+        font-size:0.8em;
+    }
+
+    
+} 
+@media only screen and ( min-width:571px) and (max-width:770px)
+{
+    #my-pic{
+        width:60%;
+        height:60%;
+    }
+    #name-bold{
+        font-size:1.5rem;
+    }
+    .ash-experiences{
+        height:1680px;
+    }
+
+ .flip-card{
+        width:150px;
+        height:200px;
+    }
+
+    .flip-card img{
+        width:60%;
+        margin:0 auto;
+    }
+    .flip-card-back h1{
+        font-size:1.2rem;
+    }
+    .flip-card-back p{
+        font-size:0.6rem;
+        padding:2px 4px 4px 4px;
+    }
+    button#gofor{
+        width:90px;
+    }
+
+    .education-info{
+        height:720px;
+    }
+    .details p{
+        font-size:0.8rem;
+    }
+    .project-info{
+        height:400px;
+    }
+
+    .written-info h1{
+        font-size:2rem;
+    }
+    .written-info p{
+        font-size:0.8em;
+    }
+    
+}   
+
+@media only screen and (max-width:570px){
+    
+    .container-about{
+        
+        max-height:100%;
+    
+    }
+    #my-pic{
+        width:50%;
+        max-height:50%;
+        display: block;
+        position: relative;
+        top:-15%;
+    }
+    #name-bold{
+        font-size:1.2rem;
+    }
+    #hello-info{
+        font-size:0.8rem;
+    }
+    h6#info-desp{
+        font-size:0.8rem;
+    }
+    #info-like
+    {
+        font-size:0.8rem;
+    }
+    .info-about{
+        display: inline-block;
+        position: absolute;
+        top:-8rem;
+        display:flex;
+        align-items: center;
+    }
+    .social{
+        visibility: hidden;
+    }
+    .details{
+        visibility:hidden;
+    }
+
+    .written-info h1{
+        font-size:2rem;
+    }
+    .ash-info{
+        height:160%;
+        margin-bottom:60px;
+    }
+    .ash-experiences{
+        height:1850px;
+    }
+
+    .flip-card{
+        width:60%;
+        height:300px;
+    }
+
+    .flip-card img{
+        width:70%;
+    }
+    .project-info{
+        margin-bottom:1300px;
+    }
+    .row1 .flip-card{
+        margin:0 auto;
+    }
+    .row2 .flip-card{
+        margin:0 auto;
+    }
+    .flip-card-back h1{
+        font-size:1.5rem;
+    }
+    .flip-card-back p{
+        font-size:1rem;
+        padding:2px 4px 4px 4px;
+    }
+    .jug{
+        padding:1rem 0 2rem 0;
+    }
+    .education-info{
+        height:800px;
+    }
+
+}

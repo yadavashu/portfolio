@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+
+.ash-info{
+    height:60vh;
+}
+
+.ash-info-main{
+    margin-top:150px;
+}
+.written-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.written-info p{
+    text-align:center;
+    position:relative;
+    top:20px;
+    font-family: "Roboto", sans-serif;
+    color:#777777;
+}
+.written-info h1{
+    font-family: "Heebo", sans-serif;
+        font-weight: bold;
+}
+/* .perform-bar{
+    background-color: blueviolet;
+    width:100%;
+} */
+progress {
+    border-radius: 7px; 
+    width: 100%;
+    height: 10px;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+  progress::-webkit-progress-bar {
+    background-color:white;
+    border-radius: 7px;
+    box-shadow:0 0 1px  #fc585a;
+    
+  }
+  progress::-webkit-progress-value {
+    background-image:linear-gradient(90deg, #FF5153 0%, #FE7273 80%);
+    border-radius: 7px;
+   
+  }
+  .ash-skills
+  {    
+      position:relative;
+      top:30px;
+      font-family: "Roboto", sans-serif;
+      color:#777777;
+  }
+  .skills-head
+  {
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size:35px;
+    position:relative;
+    top:30px;
+  }
+   button#do
+  {
+      margin-top:40px;
+      height:50px;
+      width:200px;
+      border:none;
+      border-radius:10px;
+     background-image:  linear-gradient(90deg, #FF5153 0%, #FE7273 80%);
+     font-family:"Roboto", sans-serif;
+    
+    
+  }
+  button#do{
+      outline: none;
+      cursor:pointer;
+  }
+  button#do:hover {
+      color:white;
+    background-image:linear-gradient(315deg, #000000 0%, #414141 74%);
+  }
+
+  @media only screen and (max-width:1200px)
+  {
+    .download
+    {
+        margin-top:10px;
+    }
+  }
+  

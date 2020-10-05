@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+*{
+    padding:0;
+    margin:0;
+    z-index:0;
+    box-sizing: border-box;
+}
+.letssee{
+    position: fixed;
+      background-color:rgb(119 ,119 ,119,0.95);
+     width:100%;
+     z-index:1;
+     box-shadow: 0 0 20px #888888;
+     height:90px ;
+     transition: background-color 2s linear;
+}
+.main-front{
+    width:100%;
+    height:90vh;
+    background-color: #fc585a;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration:none;
+
+  }
+  
+ 
+.social .fb:hover,.social .insta:hover,.social .twitt:hover,.social .linkin:hover {
+    background-image: linear-gradient(90deg, #FF5153 0%, #FE7273 80%);
+  } 
+   
+  .social .fb {
+    background: #3B5998;
+    color: white;
+    text-decoration:none;
+    border-radius:10px;
+  }
+  
+
+  .social .linkin {
+    background: #55ACEE;
+    text-decoration:none;
+    color: white;
+    border-radius:10px;
+  }
+  .know{
+      position: fixed;
+      background-color:rgb(119 ,119 ,119);
+     width:100%;
+     z-index:1;
+     box-shadow: 0 0 20px #888888;
+     height:90px ;
+     transition: background-color 0.5s linear;
+  }
+
+.social .insta
+  {
+      background-image: linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d); 
+      color:white;
+      text-decoration: none;
+      border-radius:10px;
+  }
+ .social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration:none;
+    border-radius:10px;
+    
+  }
+  .container-about{
+      height:75vh;
+      border-radius:20px;
+      position:relative;
+      top:150px;
+      box-shadow:0 0 80px  #fc585a;
+  }
+  .picofme{
+      position:relative;
+      border-right: solid;
+      border-color: #e8e8e8;
+        height:70vh;
+     top:20px;
+     display:flex;
+     justify-content: center;
+     align-items:center;
+  }
+  #my-pic{
+      width:80%;
+      height:100%;
+      border-radius: 10px;
+      position: relative;
+      top:-4px;
+    }
+    .info-about{
+       
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hello-info{
+        position:relative;
+        top:16px;
+         font-family: "Roboto", sans-serif;;
+    }
+    #name-bold{
+        font-family: "Heebo", sans-serif;
+        font-weight: bold;
+    }
+    #info-like{
+        font-family: "Roboto", sans-serif;
+    }
+    #info-desp{
+        font-family: "Roboto", sans-serif;
+        color: #777777;
+    }
+    .details p{
+        font-family: "Roboto", sans-serif;
+        color: #777777;
+    }
+    #calendar{
+        position:relative;
+        top:30px;
+    }
+    #mail{
+        position:relative;
+        top:-30px;
+    }
+    .social{
+
+        width:280px;
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+  
